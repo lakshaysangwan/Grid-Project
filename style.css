@@ -10,7 +10,6 @@
 	width: 100%;
 	position: fixed;
 }
-
 li{
 	list-style-type: none;
 	padding: 1em 3em;
@@ -18,29 +17,24 @@ li{
 a{
 	text-decoration: none;
 }
-
 a:hover{
 	color: orange;
 }
-
 .help{
  	margin-left: auto;
 }
-
 .coverImage{
 	height: 450px;
 	background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
 h1{
 	border: 2px solid orange;
 	width: 15%;
 	margin: auto;
 	padding: 1%;
 }
-
 .grid{
 	background-color: black;
 	display: grid;
@@ -54,24 +48,19 @@ h1{
 	margin: auto;
 	padding: auto;
 }
-
 img{
 	max-height: 200px;
 	margin-bottom: 0px;
 }
-
 .footer{
 	font-size: 30px;
 	height: 30px;
 	background-color: grey;
 }
-
-
 .firstRow{
 	padding: 0px;
 	margin: 0px;
 }
-
 p{
 	color: red;
 	font-size: 40px;
@@ -79,7 +68,6 @@ p{
 	text-align: center;
 	font-weight: bolder;
 }
-
 @media (max-width: 800px){
 	.navbar{
 		display:block;
