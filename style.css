@@ -31,6 +31,7 @@ a:hover{
 	height: 450px;
 	background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .grid{
@@ -70,4 +71,39 @@ p{
 	background: none;
 	text-align: center;
 	font-weight: bolder;
+}
+
+@media (max-width: 700px){
+	.navbar{
+		display:block;
+		position: static;
+	}
+	li{
+		border: 1px solid grey;
+	}
+	.coverImage{
+		height: 200px;
+		background-size: auto;
+		background-position: center;
+	}
+	.grid{
+		background-color: black;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: minmax(200px, auto);
+		grid-row-gap: 3em;
+		grid-column-gap: 3em;
+		margin: 5% 10% 10% 10%;
+	}
+}
+@media (max-width: 300px){
+	.grid{
+		background-color: black;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: minmax(200px, auto);
+		grid-row-gap: 3em;
+		grid-column-gap: 3em;
+		margin: 5% 10% 10% 10%;
+	}
 }
