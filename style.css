@@ -34,6 +34,13 @@ a:hover{
 	background-position: center;
 }
 
+h1{
+	border: 2px solid orange;
+	width: 15%;
+	margin: auto;
+	padding: 1%;
+}
+
 .grid{
 	background-color: black;
 	display: grid;
@@ -73,7 +80,7 @@ p{
 	font-weight: bolder;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
 	.navbar{
 		display:block;
 		position: static;
@@ -95,8 +102,11 @@ p{
 		grid-column-gap: 3em;
 		margin: 5% 10% 10% 10%;
 	}
+	h1{
+		width: 25%;
+	}
 }
-@media (max-width: 300px){
+@media (max-width: 600px){
 	.grid{
 		background-color: black;
 		display: grid;
@@ -104,6 +114,6 @@ p{
 		grid-template-rows: minmax(200px, auto);
 		grid-row-gap: 3em;
 		grid-column-gap: 3em;
-		margin: 5% 10% 10% 10%;
+		margin: 10% 10% 10% 10%;
 	}
 }
